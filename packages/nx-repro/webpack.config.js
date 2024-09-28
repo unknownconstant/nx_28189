@@ -13,6 +13,7 @@ module.exports = {
       disableDotRule: true,
       htmlAcceptHeaders: ['text/html', 'application/xhtml+xml'],
     },
+    hot: true,
   },
   plugins: [
     new NxAppWebpackPlugin({
